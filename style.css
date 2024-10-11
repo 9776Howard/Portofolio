@@ -1,0 +1,48 @@
+article p{
+    font-family:"Courier New", "monospace";
+}
+section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16325B;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #11111156;
+  }
+  
+  .active {
+    background-color: #825B32;
+  }
+  .footer{
+    text-align: center;
+    background-color: antiquewhite;
+  }
+
+
+  

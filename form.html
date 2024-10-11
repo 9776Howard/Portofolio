@@ -1,0 +1,95 @@
+<html></html>
+    <head>
+        <style>
+
+
+.submit {
+    text-align: center;
+}
+            ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16325B;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #11111156;
+  }
+  
+  .active {
+    background-color: #825B32;
+  }
+  .footer{
+    text-align: center;
+    background-color: antiquewhite;
+  }
+        </style>
+        <title>web portofolio</title>
+     
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"> 
+    </head>
+    <body style="background-color: beige;>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a class="active" href="Home.html"><img src="Logo.png" height="35" width="35" style="border-radius: 50%;">
+                        <li><a href="Overview.html">Data diri</a></li>
+                        <li><a href="Portofolio.html">Portofolio</a></li>
+                        <li><a href="Form.html">Form</a></li>
+                  </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <br>
+            <form>
+                Nama  :<input type="text"><br><hr>
+                No. Telepon :  <input type="number"><br><hr>
+
+
+                <form action="/action_page.php">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="Submit">
+                  </form>
+<hr>
+
+
+
+                <form action="/action_page.php">
+                    <label for="cars">Jenis Kelamin</label>
+                    
+                    <select id="cars" name="cars">
+                        <option value="Laki-Laki">Laki-Laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                  </form>
+
+                  <hr>
+                Tanggapan : <br><textarea style="height: 200px; width: 600px;"></textarea><br><hr>
+
+                <div class="SUBMIT">
+                     <input type="submit" value="Submit" onclick="alert('Terima Kasih Telah Mengisi')" >
+                </div>
+               
+                </form>
+        </div>
+        <div class="footer">
+            <p>Copyright &copy 2024 Howie</p>
+        </div>
+    </body>
+
+</html>

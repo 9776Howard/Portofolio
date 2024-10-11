@@ -1,0 +1,172 @@
+<html></html>
+    <head>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              background-color: #f1f1f1;
+              padding: 20px;
+              font-family: Arial;
+            }
+            
+            /* Center website */
+            .main {
+              max-width: 1000px;
+              margin: auto;
+            }
+            
+            h1 {
+              font-size: 50px;
+              word-break: break-all;
+            }
+            
+            .row {
+              margin: 8px -16px;
+            }
+            
+            /* Add padding BETWEEN each column */
+            .row,
+            .row > .column {
+              padding: 8px;
+            }
+            
+            /* Create four equal columns that floats next to each other */
+            .column {
+              float: left;
+              width: 33%;
+            }
+            
+            /* Clear floats after rows */ 
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Content */
+            .content {
+              background-color: white;
+              padding: 10px;
+            }
+            
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 900px) {
+              .column {
+                width: 50%;
+              }
+            }
+            
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column {
+                width: 100%;
+              }
+            }
+
+            ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16325B;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #11111156;
+  }
+  
+  .active {
+    background-color: #825B32;
+  }
+  .footer{
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .contentt{
+    text-align: center;
+}
+
+  
+            </style>
+        <title>web portofolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"> 
+    </head>
+    <body style="background-color: beige;>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a class="active" href="Home.html"><img src="Logo.png" height="35" width="35" style="border-radius: 50%;">
+                        <li><a href="Overview.html">Data diri</a></li>
+                        <li><a href="Portofolio.html">Portofolio</a></li>
+                        <li><a href="Form.html">Form</a></li>
+                  </ul>
+            </nav>
+        </div>
+
+        <div class="contentt">
+          <img src="howie.jpg" width="200" height="200" style="border-radius: 50%;">
+          <h1>Saya Howard</h1>
+          <hr>
+          
+          <h2><strong>Riwayat Pendidikan</strong></h2>
+          <p>TK Santa Theresia (2014 - 2016)<br>
+              SD Santa Theresia (2016 - 2022)<br>
+              SMP Kolese Kanisius (2023 - sekarang)<br>
+          <br></p>
+  
+          <h2><strong>Pengalaman</strong></h2>
+          <p>                    
+          Panitia CC Cup 2022-2024<br>
+          Panitia CTS 2024<br>
+          Peserta ICF Turki 2023<br>
+          Notulensi Research Paper 2023
+          <br></p>
+          </div>
+                <div class="main"> 
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                      <div class="column">
+                        <div class="content">
+                          <img src="1.png" style="width:100%">
+                          <h3>Lomba Foto Jurnalistik CTS</h3>
+                          <p>Pada tahun 2019 saya memenangkan juara harapan 2 dalam lomba Foto Jurnalistik pada CTS ke-11</p>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="content">
+                        <img src="2.png" style="width:100%">
+                          <h3>Lomba Kids Game Programing Intermediate</h3>
+                          <p>Pada tahun tanggal 5-6 november 2021 saya berpartisipasi dalam membuat game untuk sebuah lomba yang diadakan pada kegiatan INFORMATION TECHNOLOCY CREATIVE COMPETITION 2021 yang diadakan oleh Fakultas Teknik Universitas Udayana</p>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="content">
+                        <img src="3.png" style="width:100%">
+                          <h3>10th Macau International Diving Invitational 2023</h3>
+                          <p>Pada tahun 2023 saya dan club pergi ke Macau untuk berpartisipasi dalam Macau International Diving Competition, dan saya meraih juara 5.</p>
+                        </div>
+                      </div>
+                      <div class="column">
+                      </div>    
+        </div>
+        <div class="footer">
+            <p>Copyright &copy 2024 Howie</p>
+        </div>
+    </body>
+
+</html>
